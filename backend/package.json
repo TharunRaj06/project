@@ -2,11 +2,11 @@
   "name": "raj",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "type": "module",
     "client": "npm start --prefix client",
     "both": "concurrently \"npm run server\" \"cd ../client && npm start\""
   },
